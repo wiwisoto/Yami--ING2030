@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yami | Recetas Pollo a la plancha</title>
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body><header class="topbar">
+  <div class="site-shell nav">
+    <a class="brand" href="home.html" aria-label="Ir al inicio Yami">
+      <img src="assets/logo-y-transparente.png" alt="Logo Yami">
+      <span>Yami</span>
+    </a>
+    <nav class="links" aria-label="Navegación principal">
+      <a href="perfil.html" class="">Perfil</a>
+      <a href="album.html" class="active">Álbum</a>
+      <button type="button" data-logout>Cerrar sesión</button>
+    </nav>
+  </div>
+</header>
+<main class="site-shell">
+  <section class="recipe-hero">
+    <div>
+      <span class="kicker">Lámina activa</span>
+      <h1>Pollo a la plancha</h1>
+      <p class="lead">El pollo aporta proteína de buena calidad, vitaminas del grupo B y minerales. En estas recetas se combina con carbohidratos, grasas saludables, verduras y fibra para formar comidas más completas.</p>
+      <div class="child-ref">
+        <b>Perfil usado para los cálculos:</b> <span id="childSummary"></span>. Proteína diaria estimada: <span id="proteinNeedText"></span>.
+      </div>
+    </div>
+    <img src="assets/lamina-plancha.png" alt="Lámina Pollo a la plancha">
+  </section>
+  <section class="nutrition-guide card">
+    <h2>Cómo leer el aporte nutricional</h2>
+    <p>Las barras muestran cuánto aporta cada receta frente a referencias diarias educativas. No reemplazan la indicación de un profesional, pero ayudan a que el adulto entienda qué está cocinando.</p>
+    <div class="macro-legend">
+      <span><i class="dot energy"></i>Energía</span>
+      <span><i class="dot protein"></i>Proteína</span>
+      <span><i class="dot carbs"></i>Carbohidratos</span>
+      <span><i class="dot fat"></i>Grasas</span>
+      <span><i class="dot fiber"></i>Fibra</span>
+    </div>
+  </section>
+  <section id="recipesList" class="recipes-list"></section>
+  <section class="card source-note">
+    <h2>Fuentes</h2>
+    <p>Los cálculos son aproximados y se basan en referencias públicas de nutrición. Puedes revisar las fuentes en la página de citas.</p>
+    <a class="secondary-btn" href="citas.html">Ver citas</a>
+  </section>
+</main>
+<footer class="footer"><a href="pollo.html">Volver a las láminas de pollo</a></footer>
+<script src="app.js"></script>
+</body></html>

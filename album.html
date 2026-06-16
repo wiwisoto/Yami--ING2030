@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yami | Álbum</title>
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body><header class="topbar">
+  <div class="site-shell nav">
+    <a class="brand" href="home.html" aria-label="Ir al inicio Yami">
+      <img src="assets/logo-y-transparente.png" alt="Logo Yami">
+      <span>Yami</span>
+    </a>
+    <nav class="links" aria-label="Navegación principal">
+      <a href="perfil.html" class="">Perfil</a>
+      <a href="album.html" class="active">Álbum</a>
+      <button type="button" data-logout>Cerrar sesión</button>
+    </nav>
+  </div>
+</header>
+<main class="site-shell">
+  <section class="album-cover">
+    <div class="album-title">
+      <img src="assets/logo-y-transparente.png" alt="Logo Yami">
+      <div>
+        <span class="kicker">Álbum Yami</span>
+        <h1>Elige un ingrediente</h1>
+        <p>Explora preparaciones saludables con estética de láminas coleccionables. En esta demo solo está activo Pollo.</p>
+      </div>
+    </div>
+    <img class="album-character" src="assets/personaje-yamito-transparente.png" alt="Personaje Yami">
+  </section>
+  <section class="ingredient-grid">
+    <a class="ingredient-card available" href="pollo.html">
+      <span class="ingredient-number">01</span>
+      <h2>Pollo</h2>
+      <p>10 formas saludables de prepararlo.</p>
+      <b>Abrir categoría</b>
+    </a>
+    <article class="ingredient-card locked"><span class="ingredient-number">02</span><h2>Frutas</h2><p>Próximamente.</p><b>Bloqueado</b></article>
+    <article class="ingredient-card locked"><span class="ingredient-number">03</span><h2>Verduras</h2><p>Próximamente.</p><b>Bloqueado</b></article>
+    <article class="ingredient-card locked"><span class="ingredient-number">04</span><h2>Legumbres</h2><p>Próximamente.</p><b>Bloqueado</b></article>
+    <article class="ingredient-card locked"><span class="ingredient-number">05</span><h2>Pescado</h2><p>Próximamente.</p><b>Bloqueado</b></article>
+    <article class="ingredient-card locked"><span class="ingredient-number">06</span><h2>Cereales</h2><p>Próximamente.</p><b>Bloqueado</b></article>
+  </section>
+</main>
+<footer class="footer">Cada ingrediente puede convertirse en una página de colección propia.</footer>
+<script src="app.js"></script>
+</body></html>
